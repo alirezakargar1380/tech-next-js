@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="54aaba3a-2c96-4d3c-88f8-20eab2a4da05" name="Default Changelist" comment="" />
+    <list default="true" id="ffeca826-bf2b-43e0-9d66-71e93501e36f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/jsLinters/jshint.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLinters/jshint.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/PodcastItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/PodcastItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/PodcastIntro.js" beforeDir="false" afterPath="$PROJECT_DIR$/layout/PodcastIntro.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/api/hello.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/api/hello.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/podcasts/[podcasts_title].js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/podcasts/[podcasts_title].js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,7 +21,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1uL6zhqmEBCWzhdfh1Yt8BU66bx" />
+  <component name="ProjectId" id="1uLHphUNUKIspvZXaekyzzh86Qv" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -22,46 +30,22 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="54aaba3a-2c96-4d3c-88f8-20eab2a4da05" name="Default Changelist" comment="" />
-      <created>1624432785758</created>
+      <changelist id="ffeca826-bf2b-43e0-9d66-71e93501e36f" name="Default Changelist" comment="" />
+      <created>1624438133700</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1624432785758</updated>
-      <workItem from="1624432788569" duration="360000" />
+      <updated>1624438133700</updated>
+      <workItem from="1624438134805" duration="129000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/pages/api/env.js</url>
-          <line>7</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

@@ -6,10 +6,10 @@
 import axios from "axios";
 import {BASE_API_URL} from "./env";
 
-export async function pages_seo()
+export async function pages_seo(page_type,post_id)
 {
   return axios.get(
-      BASE_API_URL + `/pages_seo/get_result?page_type=home&post_id=0`
+      BASE_API_URL + `/pages_seo/get_result?page_type=${page_type}&post_id=${post_id}`
   )
 }
 

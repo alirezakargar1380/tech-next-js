@@ -11,7 +11,7 @@ import Article from "../layout/Article";
 export default class Home extends React.Component {
 
     static async getInitialProps() {
-        const data = await pages_seo();
+        const data = await pages_seo("home",0);
         const apps = await get_recommend_posts_by_types("apps");
         const podcasts = await get_recommend_posts_by_types("podcasts");
         const articles = await get_recommend_posts_by_types("articles");

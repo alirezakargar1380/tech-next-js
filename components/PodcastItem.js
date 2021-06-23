@@ -1,15 +1,16 @@
 import React from 'react';
 import { Component } from "react";
+
 export default class PodcastItem extends Component {
     render () {
         return (
             <div className="hh Phover borderLeft" id="hh">
-                <a href="/podcasts/پاد">
+                <a href={"/podcasts/"+this.props.title}>
                     <div className="item">
                         <img className="mx-auto" src={this.props.img} alt=""/>
                         <div className="pTextBox" id="hoverStyle">
-                            <h5 style={{height: "60px"}} className="text-right pr-4 font-blod">{this.props.title}</h5>
-                            <h6 style={{height: "85px"}} className="font-light text-right pr-4 pl-4 mt-3">{this.props.dis}</h6>
+                            <h6 style={{height: "40px"}} className="text-right pr-4 font-blod">{this.props.title}</h6>
+                            <h6 style={{height: "85px"}} className="font-light font-14 text-right pr-4 pl-4 mt-3">{this.props.dis}</h6>
                             <h6 className="hover cursor mb-0 py-2 mt-2 text-left font-medium mx-auto px-4 pb-3 d-flex more-color justify-content-between pTextBoxResponsive"
                                 id="hover">
                                 <div className="d-flex">
