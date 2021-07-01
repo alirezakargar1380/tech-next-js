@@ -165,7 +165,7 @@ class About extends React.Component {
                     <script type="text/javascript" src="/assets/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
                     <script type="text/javascript" src="/assets/app.js"></script>
                 </Head>
-                <div id="main" className="position-relative" style={{background: "#D6D6D6"}}>
+                <div id="main" className="position-relative" style={{background: "#000"}}>
                     <Header/>
                     <main
                         style={{backgroundColor: "#0D0D0D"}}

@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffeca826-bf2b-43e0-9d66-71e93501e36f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/jsLinters/jshint.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLinters/jshint.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/PodcastItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/PodcastItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layout/PodcastIntro.js" beforeDir="false" afterPath="$PROJECT_DIR$/layout/PodcastIntro.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/api/hello.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/api/hello.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/apps/[id].js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/apps/[id].js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/podcasts/[podcasts_title].js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/podcasts/[podcasts_title].js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +29,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../persion font" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -41,11 +41,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1624438133700</updated>
-      <workItem from="1624438134805" duration="129000" />
+      <workItem from="1624438134805" duration="5182000" />
+      <workItem from="1624595409234" duration="29000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
