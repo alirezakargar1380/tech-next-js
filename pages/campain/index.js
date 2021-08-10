@@ -10,7 +10,7 @@ export default class Campain extends React.Component {
                   href="/assets/kampain/style/style.css"
             />
           </Head>
-          <div className="con d-inline-block">
+          <div className="con">
             <form
                 className="text-center bg-white px-4 pb-4 f-18 radius-20 form-box-show"
             >

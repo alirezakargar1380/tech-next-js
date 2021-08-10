@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffeca826-bf2b-43e0-9d66-71e93501e36f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/api/env.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/api/env.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/campain/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/campain/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/kampain/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/kampain/style/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +59,7 @@
       <updated>1624438133700</updated>
       <workItem from="1624438134805" duration="5182000" />
       <workItem from="1624595409234" duration="29000" />
-      <workItem from="1628554529004" duration="2816000" />
+      <workItem from="1628554529004" duration="4272000" />
     </task>
     <servers />
   </component>
