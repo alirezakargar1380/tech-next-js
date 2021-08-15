@@ -103,3 +103,10 @@ export async function get_recent_videos() {
             BASE_API_URL + "/links/recent_videos/get"
         )
 }
+
+export async function get_youtube_video_info(url) {
+    return axios
+        .get(
+            BASE_API_URL + "/youtube_downloader/videoInfo?url=" + url
+        )
+}
