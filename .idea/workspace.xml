@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffeca826-bf2b-43e0-9d66-71e93501e36f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/links.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/links.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/youtube_downloader/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/youtube_downloader/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/youtube_downloader/result.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/youtube_downloader/result.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +29,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1uLHphUNUKIspvZXaekyzzh86Qv" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -32,12 +40,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/assets/kampain/style" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PhpStorm 2020.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code projects\fork\tech-next-js\public" />
       <recent name="D:\code projects\fork\tech-next-js\public\assets\kampain\style" />
       <recent name="D:\code projects\fork\tech-next-js\public\assets" />
     </key>
@@ -58,7 +68,10 @@
       <workItem from="1624438134805" duration="5182000" />
       <workItem from="1624595409234" duration="29000" />
       <workItem from="1628554529004" duration="4321000" />
-      <workItem from="1629012740239" duration="116000" />
+      <workItem from="1629012740239" duration="8742000" />
+      <workItem from="1629914572612" duration="106000" />
+      <workItem from="1630156977963" duration="751000" />
+      <workItem from="1631257637469" duration="14467000" />
     </task>
     <servers />
   </component>

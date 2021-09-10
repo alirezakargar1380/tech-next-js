@@ -12,7 +12,7 @@ export default class Youtube_Downloader extends React.Component {
     super();
     this.state = {
       showResult: false,
-      url: "https://www.youtube.com/watch?v=075AzM2G_1E%26ab_channel=ARIAKEOXER"
+      // url: "https://www.youtube.com/watch?v=075AzM2G_1E%26ab_channel=ARIAKEOXER"
     }
   }
 
@@ -58,10 +58,11 @@ export default class Youtube_Downloader extends React.Component {
               <link rel="icon" href="/a.png"/>
             </Head>
             <div className="w-75 mx-auto text-center">
-              <h4 className="my-4">youtuber downloader</h4>
+              <h4 className="mt-4">youtuber downloader</h4>
+              <div className="mb-4">this platform need VPN</div>
               <div className="d-flex justify-content-center w-100">
                 <input placeholder="enter your video url"
-                       value="https://www.youtube.com/watch?v=075AzM2G_1E%26ab_channel=ARIAKEOXER"
+                       // value="https://www.youtube.com/watch?v=075AzM2G_1E%26ab_channel=ARIAKEOXER"
                        onChange={(e) => {
                          this.setState({
                            url: e.target.value

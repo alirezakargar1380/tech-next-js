@@ -243,24 +243,7 @@ class Links extends Component {
                                             </svg>
                                             <h4 className="mb-0 pl-3 pb-1 mt-1 pt-2 font-Thin cb">instagram</h4>
                                         </a>
-
-                                        <a
-                                            className="w-100 d-flex mx-auto j-c-e position-relative h-100 px-3 py-1 instagram-bg b-r-20 cursor"
-                                            href="/youtube_downloader">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40"
-                                                 viewBox="0 0 138.348 96.843">
-                                                <g id="you" transform="translate(0 -76.801)">
-                                                    <path id="Path_1" data-name="Path 1"
-                                                          d="M135.456,91.923a17.324,17.324,0,0,0-12.231-12.231C112.435,76.8,69.173,76.8,69.173,76.8s-43.262,0-54.052,2.892A17.326,17.326,0,0,0,2.89,91.923C0,102.712,0,125.223,0,125.223s0,22.511,2.89,33.3a17.327,17.327,0,0,0,12.231,12.232c10.79,2.89,54.052,2.89,54.052,2.89s43.262,0,54.052-2.89a17.325,17.325,0,0,0,12.231-12.232c2.892-10.788,2.892-33.3,2.892-33.3S138.348,102.712,135.456,91.923Z"
-                                                          fill="#ed1f24"/>
-                                                    <path id="Path_2" data-name="Path 2"
-                                                          d="M204.8,220.706l35.943-20.752L204.8,179.2v41.5Z"
-                                                          transform="translate(-149.458 -74.73)" fill="#fff"/>
-                                                </g>
-                                            </svg>
-                                            <h6 className="mb-0 pl-3 pb-1 mt-1 pt-2 font-Thin cb">youtube downloader</h6>
-                                        </a>
-
+                                        
                                     </div>
                                 </section>
                             </fieldset>

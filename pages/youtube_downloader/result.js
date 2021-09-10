@@ -1,10 +1,34 @@
 import React from "react";
+import {get_article_posts_by_title} from "../api/hello";
 
 export default class Result extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      thumbnail: {}
+    }
+  }
+
+  static async getInitialProps({query}) {
+    // const post_detail = await get_article_posts_by_title(encodeURI(query.artikle_title));
+    return {
+      data: "sd"
+    }
+  }
+
+  componentDidMount() {
+    const {result} = this.props
+    this.setState({
+      thumbnail: result.thumbnails[result.thumbnails.length - 1]
+    })
+  }
+
   render() {
     const {result} = this.props
-    const {formats} = result
-    const thumbnail = result.thumbnails[result.thumbnails.length - 1]
+    const {thumbnail} = this.state
+    // const {formats} = result
+    // const thumbnail =
+    if (!result || !thumbnail) return null
     return(
         <div className="mt-5 mb-3 pt-3">
           <h5>result</h5>
@@ -21,7 +45,7 @@ export default class Result extends React.Component {
             </div>
           </div>
           <h5>links</h5>
-          {formats.map((result) => {
+          {result.formats.map((result) => {
             return(
                 <div className="border shadow mb-4 p-3">
                   <div className="d-flex justify-content-start">
