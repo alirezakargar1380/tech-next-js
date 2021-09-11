@@ -9,9 +9,13 @@ import {
 import Head from 'next/head';
 import { library,  } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
-import { faCheckSquare, faCoffee, faChevronCircleLeft, faChevronLeft, fas } from '@fortawesome/free-solid-svg-icons'
+import { faCheckSquare, faCoffee, faChevronCircleLeft, faDolly, faChevronLeft, fas } from '@fortawesome/free-solid-svg-icons'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 library.add(fab, fas, faCheckSquare, faCoffee, faChevronLeft, faChevronCircleLeft)
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from 'react-responsive-carousel';
 
 export default class Products extends React.Component {
   constructor(props) {
@@ -77,26 +81,41 @@ export default class Products extends React.Component {
   render() {
     return(
         <div dir="rtl">
+          <ToastContainer
+              position="top-center"
+          />
           <div className="col-md-6 mx-auto px-0">
             <div className="h-50vh position-relative text-center w-100 mx-auto">
               <div className="cover-object h-inherit w-inherit mx-auto position-relative">
-                <img className="h-inherit w-100"
-                     style={{
-                       objectFit: "contain"
-                     }}
-                     src="/114925804.jpg" alt=""/>
-                <div className="position-absolute btn-section">
-                  <button
-                      className="mr-auto border-0 rounded-circle product-back-btn-c product-back-btn">
-                    <div className="cw">
-                      {/*<i className="fas fa-chevron-left"></i>*/}
-                      <FontAwesomeIcon icon={faChevronLeft} />
+                {/*<img className="h-inherit w-100"*/}
+                {/*     style={{*/}
+                {/*       objectFit: "contain"*/}
+                {/*     }}*/}
+                {/*     src="/114925804.jpg" alt=""/>*/}
+                <div dir={"ltr"}>
+                  <Carousel autoPlay={false} emulateTouch={true} showThumbs={false} showArrows={false}>
+                    <div>
+                      <img src="/114925804.jpg" />
                     </div>
-                  </button>
+                    <div>
+                      <img src="/114930099.jpg" />
+                    </div>
+                  </Carousel>
+                </div>
+                <div className="position-absolute btn-section">
+                  <a href="/search_products" className="cw">
+                    <button
+                        className="mr-auto border-0 rounded-circle product-back-btn-c product-back-btn">
+                      <div className="cw">
+                        {/*<i className="fas fa-chevron-left"></i>*/}
+                        <FontAwesomeIcon icon={faChevronLeft} />
+                      </div>
+                    </button>
+                  </a>
                 </div>
               </div>
             </div>
-            <div className="col-md-6 px-0 mx-auto product-detail-box">
+            <div className="col-md-8 px-0 mx-auto product-detail-box">
               <header className="d-flex justify-content-between">
                 <h5 className="text-left pr-4 pt-3 font-light">دست بند دست بافت</h5>
                 <h4 className="text-left pl-4 pt-3 font-medium">20.00</h4>
@@ -111,7 +130,7 @@ export default class Products extends React.Component {
                           onClick={(event) => {
                             this.selectSize(event)
                           }}
-                      >S</span>
+                      >L</span>
                     </div>
                     <div className="border-2 ml-3">
                       <span className="py-2 px-3 product-size-box product-size-border product-size-border-radius"
@@ -125,7 +144,7 @@ export default class Products extends React.Component {
                             onClick={(event) => {
                               this.selectSize(event)
                             }}
-                      >S</span>
+                      >M</span>
                     </div>
                   </section>
                 </div>
@@ -154,7 +173,7 @@ export default class Products extends React.Component {
                           this.selectColor(event)
                         }}
                   >
-                    <span className="dot" style={{backgroundColor: "#000"}}></span>
+                    <span className="dot" style={{backgroundColor: "#d08686"}}></span>
                   </span>
                   </div>
                 </div>
@@ -191,7 +210,27 @@ export default class Products extends React.Component {
               </section>
               <section className="bottom-0 w-100 pb-4">
                 <div className="p-3">
-                  <button className="w-100 p-3">افزودن به سبد خرید</button>
+                  <button className="w-100 p-3 border-0 font-medium product-add-to-cart-btn"
+                  onClick={() => {
+                    toast("محصول شما با موفقیت به سبد خرید اضافه شد",{
+                      type: "info",
+                      theme: "light"
+                    })
+                  }}>
+                    <FontAwesomeIcon icon={faDolly} className="ml-2"/>
+                    افزودن به سبد خرید
+                  </button>
+                  <a href="/search_products">
+                    <button className="w-100 p-3 border-0 font-medium product-countinu-shopping-btn mt-3">
+                      <FontAwesomeIcon icon={faDolly} className="ml-2"/>
+                      ادامه خرید
+                    </button>
+                  </a>
+                  <button className="w-100 p-3 border-0 font-medium product-end-shopping-btn mt-3">
+                    <FontAwesomeIcon icon={faDolly} className="ml-2"/>
+                    تصویه حساب
+                  </button>
+
                 </div>
               </section>
             </div>
