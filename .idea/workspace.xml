@@ -5,9 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/links.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/links.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/youtube_downloader/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/youtube_downloader/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/youtube_downloader/result.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/youtube_downloader/result.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/products/[id].js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/products/[id].js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +69,14 @@
       <workItem from="1629012740239" duration="8742000" />
       <workItem from="1629914572612" duration="106000" />
       <workItem from="1630156977963" duration="751000" />
-      <workItem from="1631257637469" duration="14467000" />
+      <workItem from="1631257637469" duration="23340000" />
+      <workItem from="1631371911238" duration="51000" />
+      <workItem from="1631388810305" duration="2493000" />
+      <workItem from="1631426624868" duration="41000" />
+      <workItem from="1631548231079" duration="203000" />
+      <workItem from="1631860074822" duration="200000" />
+      <workItem from="1632350766002" duration="353000" />
+      <workItem from="1632411672519" duration="624000" />
     </task>
     <servers />
   </component>
@@ -89,5 +94,16 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/pages/products/[id].js</url>
+          <line>67</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

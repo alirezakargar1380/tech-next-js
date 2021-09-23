@@ -92,8 +92,8 @@ export default class Products extends React.Component {
                 {/*       objectFit: "contain"*/}
                 {/*     }}*/}
                 {/*     src="/114925804.jpg" alt=""/>*/}
-                <div dir={"ltr"}>
-                  <Carousel autoPlay={false} emulateTouch={true} showThumbs={false} showArrows={false}>
+                <div className="h-inherit carousel-ss" dir="ltr">
+                  <Carousel autoPlay={false} emulateTouch={true} showThumbs={false} showArrows={false} className="h-inherit w-100">
                     <div>
                       <img src="/114925804.jpg" />
                     </div>

@@ -448,6 +448,12 @@ grid-template-columns: 28% 38% 28%;
 .product-search-input::placeholder {
     color: #ababab;
 }
+/*----------------------------------------------------- slider ----------------------*/
+.carousel-ss div div, .carousel-slider .slider-wrapper ul,
+.carousel-slider .slider-wrapper ul li, .carousel-root div, .carousel .slide img {
+    height: inherit;
+}
+.carousel .slide img { width: auto!important; }
 /*----------------------------------------------------- BORDER ----------------------*/
 .product-size-border-radius { border-radius: 9px }
 /*----------------------------------------------------- width ----------------------*/
